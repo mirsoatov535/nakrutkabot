@@ -1,7 +1,7 @@
 <?php
 ob_start();
 error_reporting(0);
-define('API_KEY','5909180602:AAFxizrzhateg196gDrgMkeGfBE83qz6mHI');  //bot tokeni
+define('https://partner.soc-proof.su/api/v2','5909180602:AAFxizrzhateg196gDrgMkeGfBE83qz6mHI');  //bot tokeni
 $key="
 https://partner.soc-proof.su/api/v2"; //api key partner.soc-proof.su saytidan olamz
 $admin = "ADMIN_ID";
