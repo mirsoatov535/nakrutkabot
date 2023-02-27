@@ -2,10 +2,11 @@
 ob_start();
 error_reporting(0);
 define('API_KEY','5909180602:AAFxizrzhateg196gDrgMkeGfBE83qz6mHI');  //bot tokeni
-$key=""; //api key partner.soc-proof.su saytidan olamz
+$key="
+https://partner.soc-proof.su/api/v2"; //api key partner.soc-proof.su saytidan olamz
 $admin = "ADMIN_ID";
 $adminuser="mf_bots";
-$botname = bot('getme',['bot'])->result->username;
+$botname = bot('ONE SMM BOT',['ONE_SMMBOT'])->result->username;
 function bot($method,$datas=[]){
 $url = "https://api.telegram.org/bot5909180602:AAFxizrzhateg196gDrgMkeGfBE83qz6mHI/ONE_SMMBOT".API_KEY."/".$method;
 $ch = curl_init();
