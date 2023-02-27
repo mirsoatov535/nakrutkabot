@@ -7,7 +7,7 @@ $admin = "ADMIN_ID";
 $adminuser="mf_bots";
 $botname = bot('getme',['bot'])->result->username;
 function bot($method,$datas=[]){
-$url = "https://api.telegram.org/bot".API_KEY."/".$method;
+$url = "https://api.telegram.org/bot5909180602:AAFxizrzhateg196gDrgMkeGfBE83qz6mHI/ONE_SMMBOT".API_KEY."/".$method;
 $ch = curl_init();
  curl_setopt($ch,CURLOPT_URL,$url);
  curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
